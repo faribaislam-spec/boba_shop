@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boba Bobyyy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="hud">
+    <div class="sign">🧋 Boba Bobyyy</div>
+    <div class="level">Lv <span id="level">1</span>
+      <div class="xpbar"><div id="xpfill"></div></div>
+    </div>
+    <div class="stats">🪙 <span id="coins">0</span> &nbsp; ⏱ <span id="time">3:00</span></div>
+    <button id="menuBtn">📖 Menu</button>
+  </header>
+
+  <section id="shopfront">
+    <div id="counter"></div>          <!-- customers + their orders -->
+    <div class="counter-top"></div>   <!-- the wooden counter -->
+  </section>
+
+  <section id="workarea">
+    <div id="station"></div>          <!-- ingredient buttons -->
+    <div id="prep">
+      <div id="cup"></div>            <!-- drink you're building -->
+      <div id="actions"></div>        <!-- trash + serve -->
+      <div id="message"></div>        <!-- feedback after serving -->
+    </div>
+  </section>
+
+  <div id="recipes"></div>            <!-- recipe menu -->
+   <div id="levelup"></div>            <!-- level-up popup -->
+  <div id="overlay"></div>            <!-- start / end screens -->
+  <script src="game.js"></script>
+</body>
+</html>
